@@ -1,5 +1,5 @@
 import { Account, Avatars, Client, Databases, Storage } from "node-appwrite";
-import { appwriteConfig } from "./config";
+import { appwriteConfig } from "./appwrite/config";
 import { cookies } from "next/headers";
 
 export const createSessionClient = async () => {
